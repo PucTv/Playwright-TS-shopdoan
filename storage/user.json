@@ -1,0 +1,49 @@
+{
+  "cookies": [
+    {
+      "name": "__Host-next-auth.csrf-token",
+      "value": "421a011deb431636461ae9fad8a3d1b5c10c025fb53bbbd06db53038fcd6c046%7C8a65ea19b77673e62b2c55d2a50a1f129aead584a1eb05472094ea1617a8b1c3",
+      "domain": "shopdoan-ui-user.vercel.app",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__Secure-next-auth.callback-url",
+      "value": "https%3A%2F%2Fshopdoan-ui-user.vercel.app%2Fauth%2Fsignin",
+      "domain": "shopdoan-ui-user.vercel.app",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__Secure-next-auth.session-token",
+      "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..iFb_41qSowOvhvrY.1NT6t9yTyi3rYVD6aIhP4QOCPXWVZ3Mi49vyCmlLIh6BNq3r1dfNxwmzVoha8prN0CnkpyFcJq7vPbF3P1wkrwiPlWBFOeMtE1gRyncSgwxOn9l_aspor1HfwtZ67W1-LdHBjrc687xo_f34p73Txu0CZweLlLOgKAKbWIen_3Y7GRVfPyvCI3--zOZMTp2j53wqg8WjDFdTZISgEhJrxn8TNkTEbCslPamJhhSrpIcodOwEpS7V3XYVN-jZ4vazin-UAgD32rAnbwpo2hLFSWwapn_wa5zpyOVoPGi-KPHKR3Xf7uaqgi0ZGJhgcx8nnyu400peOYMYtf_ZmMCqwxOE-KCSSx3sQfdCE2YqCFqX3k5Gq_Gzed0-jPsjxtvMKwGLtQAArUsT8-hoUUzLxK4Iwfp0VlEgngBpZsnuNbL2J8Hd_O-Y329a7qGD8PN68LqF3dRAcEuP4VvbY8tl8hOuRlfUP9kpBj8gqktCsv8NPDi0Azec_IRZf2cvulnyBMHvAQ8R5Aw4B8-8zv3nE484zQdOymjPVl-G9FTIDi6jfdQIepDaAsTzR0blmis6dTtxt3vUVpwZiLh1ET94Lmpb27rySLHTnLEBzw53wRECC8S7Ip7iIph74rX8IXHk-b6FoHkLQS0IQZ_ylOyVjjMUilRbQ1oFSSHps016K0tToPVuP0lNtTnBZqRN0C82nQhP2ly3y4eZfFDJjg.AbCUX-GcTGDK0x294me-xA",
+      "domain": "shopdoan-ui-user.vercel.app",
+      "path": "/",
+      "expires": 1782196214.707684,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://shopdoan-ui-user.vercel.app",
+      "localStorage": [
+        {
+          "name": "nextauth.message",
+          "value": "{\"event\":\"session\",\"data\":{\"trigger\":\"getSession\"},\"timestamp\":1779604214}"
+        },
+        {
+          "name": "shopdoan_cart_15",
+          "value": "[]"
+        }
+      ]
+    }
+  ]
+}

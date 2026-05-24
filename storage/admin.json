@@ -1,0 +1,45 @@
+{
+  "cookies": [
+    {
+      "name": "__Host-next-auth.csrf-token",
+      "value": "57449f5a6f76eb4613e3de19b1cf325440e052cbe65c9b87637a1e02f929c9f1%7C7ed0b8848f7b58da8971c56ad0f7e3b2435eb82b52d70169c34897e6ee8a76e2",
+      "domain": "shopdoan-ui-admin.vercel.app",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__Secure-next-auth.callback-url",
+      "value": "https%3A%2F%2Fshopdoan-ui-admin.vercel.app%2Fauth%2Fsignin",
+      "domain": "shopdoan-ui-admin.vercel.app",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__Secure-next-auth.session-token",
+      "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..hJaeKINE7EOzh_4Q.LvNneYcGF8zjMq8H45EwBWYuzZjJlrR8YLQIlqGxM3-krpPZqjtc1kQUSPXmNFUmCMfvz0Ti68BKT_EkqMry629rHN10wBQMrRFU2tA5IxWp3VHOJl69QrVIDpSV-LtpaEY29FUvGqLaRO3mVIp3eMWcKNWBpGScs4GxCc5VAvHet3yerYHawED3IacmxZzjrvzY1xtuwqBgx4boR_juK_lNsQnMCCtx4UJp93Ot6C854jKl6VaG0PuVqdL-vbIdF-dH_Lc2kYd6rsAa8Dfa-5JhJ5LCnEXp9gDpsW94vtXGVreZwB2NGq0B3aLf3o14GmdDtVDxUu3t3F3VT4wnmERRkyD_0BQhZqqTUHW9tkSEZMFElO5HHHHErx26OHsApBWBaHbLIojagXs4jHOPJY7Ap8v_cXwjOWO-xcE_CqIWwpqTdlvPL9Xh4JQqhKngUpcClSorW8R3NvMBW8cKCT7NUwecwQhIJzlTBh6lnnzxb994JeaGepMTt4w93aNhDmw4-b77QRS8dZaXoQR9_6dNizK2UMWJt2bzvm72LAiUSnUhRO0rH2YNoHMhtk_5EJftWE1ND3Tc8N6Wsv9P4-91tdeGwp32Qr-71PSE5hNxS9GbdSwIA09xtdPyQ-S_fpmAH8XAVsk7PKZ4qYWEnfBxDNfEhlU8yv1yQe_UiZx_ugANAj8LcuGj4idhb9elvviJITxv-2ojSvbLjVG9FPjZb8-CqGeP.5tCE-qzepPBL6myDef3Ohw",
+      "domain": "shopdoan-ui-admin.vercel.app",
+      "path": "/",
+      "expires": 1782196218.809314,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://shopdoan-ui-admin.vercel.app",
+      "localStorage": [
+        {
+          "name": "nextauth.message",
+          "value": "{\"event\":\"session\",\"data\":{\"trigger\":\"getSession\"},\"timestamp\":1779604216}"
+        }
+      ]
+    }
+  ]
+}

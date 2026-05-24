@@ -1,0 +1,24 @@
+{
+  "name": "playwright-ts-shopdoan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PucTv/Playwright-TS-shopdoan.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/PucTv/Playwright-TS-shopdoan/issues"
+  },
+  "homepage": "https://github.com/PucTv/Playwright-TS-shopdoan#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^25.9.1",
+    "typescript": "^6.0.3"
+  }
+}
