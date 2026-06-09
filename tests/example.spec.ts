@@ -1,19 +1,15 @@
 import { test, expect } from "../fixtures/auth.fixture";
 
 test("has title", async ({ userPage }) => {
-  await userPage.goto("https://shopdoan-ui-user.vercel.app/cart");
+  await userPage.goto("http://localhost:3000/cart");
 
-  // Expect a title "to contain" a substring.
   await expect(userPage.locator("h1:has-text('Giỏ hàng')")).toBeVisible();
 });
 
 test("get started link", async ({ adminPage }) => {
-  await adminPage.goto("https://shopdoan-ui-admin.vercel.app/");
-
-  // Check if page has loaded by looking for common dashboard elements
+  await adminPage.goto("http://localhost:3001/");
   await expect(adminPage.locator("body")).toBeTruthy();
 
-  // Try multiple selectors for dashboard title
   const dashboardLocators = [
     adminPage.locator("h1:has-text('Dashboard')"),
     adminPage.locator("text=Dashboard"),
@@ -32,24 +28,20 @@ test("get started link", async ({ adminPage }) => {
   }
 
   if (!found) {
-    // If dashboard not found, at least check page loaded
     await expect(adminPage).toHaveURL(/admin/);
   }
 });
 test("has title a", async ({ userPage }) => {
-  await userPage.goto("https://shopdoan-ui-user.vercel.app/cart");
+  await userPage.goto("http://localhost:3000/cart");
 
-  // Expect a title "to contain" a substring.
   await expect(userPage.locator("h1:has-text('Giỏ hàng')")).toBeVisible();
 });
 
 test("get stara ted link", async ({ adminPage }) => {
-  await adminPage.goto("https://shopdoan-ui-admin.vercel.app/");
+  await adminPage.goto("http://localhost:3001/");
 
-  // Check if page has loaded by looking for common dashboard elements
   await expect(adminPage.locator("body")).toBeTruthy();
 
-  // Try multiple selectors for dashboard title
   const dashboardLocators = [
     adminPage.locator("h1:has-text('Dashboard')"),
     adminPage.locator("text=Dashboard"),
@@ -68,24 +60,20 @@ test("get stara ted link", async ({ adminPage }) => {
   }
 
   if (!found) {
-    // If dashboard not found, at least check page loaded
     await expect(adminPage).toHaveURL(/admin/);
   }
 });
 test("has titlaaaaaaae", async ({ userPage }) => {
-  await userPage.goto("https://shopdoan-ui-user.vercel.app/cart");
+  await userPage.goto("http://localhost:3000/cart");
 
-  // Expect a title "to contain" a substring.
   await expect(userPage.locator("h1:has-text('Giỏ hàng')")).toBeVisible();
 });
 
 test("get startedaaaa link", async ({ adminPage }) => {
-  await adminPage.goto("https://shopdoan-ui-admin.vercel.app/");
+  await adminPage.goto("http://localhost:3001/");
 
-  // Check if page has loaded by looking for common dashboard elements
   await expect(adminPage.locator("body")).toBeTruthy();
 
-  // Try multiple selectors for dashboard title
   const dashboardLocators = [
     adminPage.locator("h1:has-text('Dashboard')"),
     adminPage.locator("text=Dashboard"),
@@ -104,7 +92,6 @@ test("get startedaaaa link", async ({ adminPage }) => {
   }
 
   if (!found) {
-    // If dashboard not found, at least check page loaded
     await expect(adminPage).toHaveURL(/admin/);
   }
 });

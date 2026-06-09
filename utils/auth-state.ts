@@ -16,7 +16,7 @@ export async function getAuthState(role: "user" | "admin") {
   try {
     // USER
     if (role === "user") {
-      await page.goto("https://shopdoan-ui-user.vercel.app/auth/signin");
+      await page.goto("http://localhost:3000/auth/signin");
 
       await page.fill('//*[@id="email"]', "phuc100662@donga.edu.vn");
 
@@ -29,7 +29,7 @@ export async function getAuthState(role: "user" | "admin") {
 
     // ADMIN
     if (role === "admin") {
-      await page.goto("https://shopdoan-ui-admin.vercel.app/auth/signin");
+      await page.goto("http://localhost:3001/auth/signin");
 
       await page.fill("#admin-signin_email", "root@system.com");
 

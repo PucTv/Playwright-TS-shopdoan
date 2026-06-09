@@ -1,43 +1,43 @@
 {
   "cookies": [
     {
-      "name": "__Host-next-auth.csrf-token",
-      "value": "57449f5a6f76eb4613e3de19b1cf325440e052cbe65c9b87637a1e02f929c9f1%7C7ed0b8848f7b58da8971c56ad0f7e3b2435eb82b52d70169c34897e6ee8a76e2",
-      "domain": "shopdoan-ui-admin.vercel.app",
+      "name": "next-auth.csrf-token",
+      "value": "d3f4bd9289d3b9cc4c8c3e569f394eb2f6f7bf2c6a5931a55e457659bfd46b0b%7C1a80e69ab77a01ca503b104473837db1986fb399f52fcc4ecd5d32f5d84a2954",
+      "domain": "localhost",
       "path": "/",
       "expires": -1,
       "httpOnly": true,
-      "secure": true,
+      "secure": false,
       "sameSite": "Lax"
     },
     {
-      "name": "__Secure-next-auth.callback-url",
-      "value": "https%3A%2F%2Fshopdoan-ui-admin.vercel.app%2Fauth%2Fsignin",
-      "domain": "shopdoan-ui-admin.vercel.app",
+      "name": "next-auth.callback-url",
+      "value": "http%3A%2F%2Flocalhost%3A3000",
+      "domain": "localhost",
       "path": "/",
       "expires": -1,
       "httpOnly": true,
-      "secure": true,
+      "secure": false,
       "sameSite": "Lax"
     },
     {
-      "name": "__Secure-next-auth.session-token",
-      "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..hJaeKINE7EOzh_4Q.LvNneYcGF8zjMq8H45EwBWYuzZjJlrR8YLQIlqGxM3-krpPZqjtc1kQUSPXmNFUmCMfvz0Ti68BKT_EkqMry629rHN10wBQMrRFU2tA5IxWp3VHOJl69QrVIDpSV-LtpaEY29FUvGqLaRO3mVIp3eMWcKNWBpGScs4GxCc5VAvHet3yerYHawED3IacmxZzjrvzY1xtuwqBgx4boR_juK_lNsQnMCCtx4UJp93Ot6C854jKl6VaG0PuVqdL-vbIdF-dH_Lc2kYd6rsAa8Dfa-5JhJ5LCnEXp9gDpsW94vtXGVreZwB2NGq0B3aLf3o14GmdDtVDxUu3t3F3VT4wnmERRkyD_0BQhZqqTUHW9tkSEZMFElO5HHHHErx26OHsApBWBaHbLIojagXs4jHOPJY7Ap8v_cXwjOWO-xcE_CqIWwpqTdlvPL9Xh4JQqhKngUpcClSorW8R3NvMBW8cKCT7NUwecwQhIJzlTBh6lnnzxb994JeaGepMTt4w93aNhDmw4-b77QRS8dZaXoQR9_6dNizK2UMWJt2bzvm72LAiUSnUhRO0rH2YNoHMhtk_5EJftWE1ND3Tc8N6Wsv9P4-91tdeGwp32Qr-71PSE5hNxS9GbdSwIA09xtdPyQ-S_fpmAH8XAVsk7PKZ4qYWEnfBxDNfEhlU8yv1yQe_UiZx_ugANAj8LcuGj4idhb9elvviJITxv-2ojSvbLjVG9FPjZb8-CqGeP.5tCE-qzepPBL6myDef3Ohw",
-      "domain": "shopdoan-ui-admin.vercel.app",
+      "name": "next-auth.session-token",
+      "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..QlyGUCWhYRCp4uNt.PN9GOYycfrQXVGXi7nPUudh3Wi2D7qjgdqgH6XOkTNiFQS_Wxg37gQFsdDbSkEH5WYLh8AQwP8smDcFlYYZYBgbsGNWam6sA-c-GZQLhAU0UIVJ8nWzQSrq1Tmh5Zk9It04gkkeUWPDuZngW_Lwm0VmehdvqUxhypLKmpxre28ZDghI5wzHGPolhhqQQIk09OiVh11qki-gswU5372_p958QDqWRtfYRng_TGcK6SxDHNI7S6DYInXp5GIPtafjoTuQ2ryYobNM8btsLbF0mmAV3jiypc_MLeXMjuYGYsddPh7a_WzNXbdSILSOriy1IKmGgbh5eLVyhC_82RU4VhUwvkFQHiy6h1C7bJ9yjo8ubq_0ygGSHcb8jXlFZeeZtGq0Wsr4Y_YvUWFeDzMwbKSKUfm3WnqlTz4WroymLutzncYR_ptG-yzlFfn76HHic9jVTC6Evru4_qgPAWKf8UuM3PZv09Xrk0XRs6g3Jcx3Dhb8aPTsJiwdxvhOutL2ZKwmd9KzhMqoYfeVJ734CV2N4oEnjACW9yPcrK1hWNqL7G5Z6TFBAdWdsf0-6t08B6ETxgMo30-tXI6kIlx8IwBGgUldvVuN6OKYFGazWvcE5rHqoLQQASD4daIrqTw1Ih9ENIyQK1UMZbHo7kwHztHfAQQ8rB2Kx6sCnGjrrgRUaU5PKW1rJZI3wwf50HkQaBzlxD2mbr-9rq_PZFaadyaZlKXb_M7jko4OqmA7XBxVNy8eb_HRTD0Wm6uLzf2yIaERHrw.4Oy47yABPQENbV28YPiKLg",
+      "domain": "localhost",
       "path": "/",
-      "expires": 1782196218.809314,
+      "expires": 1783568045.925166,
       "httpOnly": true,
-      "secure": true,
+      "secure": false,
       "sameSite": "Lax"
     }
   ],
   "origins": [
     {
-      "origin": "https://shopdoan-ui-admin.vercel.app",
+      "origin": "http://localhost:3001",
       "localStorage": [
         {
           "name": "nextauth.message",
-          "value": "{\"event\":\"session\",\"data\":{\"trigger\":\"getSession\"},\"timestamp\":1779604216}"
+          "value": "{\"event\":\"session\",\"data\":{\"trigger\":\"getSession\"},\"timestamp\":1780976045}"
         }
       ]
     }
